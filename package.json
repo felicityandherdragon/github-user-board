@@ -1,0 +1,29 @@
+{
+  "name": "github-user-board",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "parcel watch app.js",
+    "start:dev": "browser-sync start --server --files '.'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felicityandherdragon/github-user-board.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felicityandherdragon/github-user-board/issues"
+  },
+  "homepage": "https://github.com/felicityandherdragon/github-user-board#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "parcel-bundler": "^1.12.5"
+  },
+  "browserslist": [
+    "since 2017-06"
+  ]
+}
